@@ -1,0 +1,44 @@
+body {
+      font-family: system-ui, sans-serif;
+      width: 320px;
+      padding: 16px;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h2 { margin: 0 0 12px; font-size: 1.3em; text-align: center; }
+    label { display: block; margin: 12px 0 4px; font-weight: bold; }
+    input[type="range"] { width: 100%; }
+    #lengthValue { font-weight: bold; color: #0066cc; }
+    .checkboxes { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0; }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      font-size: 1em;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover { background: #0055aa; }
+    #password {
+      width: 100%;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 1.1em;
+      word-break: break-all;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin: 12px 0;
+      min-height: 44px;
+      box-sizing: border-box;
+    }
+    #message {
+      text-align: center;
+      color: #28a745;
+      font-size: 0.9em;
+      min-height: 1.2em;
+    }
