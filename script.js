@@ -1,11 +1,9 @@
-// Helper: get a random character from a string using crypto API
 function getRandomChar(str) {
   const arr = new Uint32Array(1);
   crypto.getRandomValues(arr);
   return str[arr[0] % str.length];
 }
 
-// Main generate function
 function generatePassword() {
   const length = parseInt(document.getElementById('length').value);
   const useUpper   = document.getElementById('uppercase').checked;
